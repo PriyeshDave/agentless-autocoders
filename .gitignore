@@ -180,6 +180,3 @@ results/
 # data files
 *.jsonl
 *.json
-
-# Jupyter Notebooks
-*.ipynb
