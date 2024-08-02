@@ -8,7 +8,7 @@ import openai
 
 # Initialize Pinecone
 spec = ServerlessSpec(cloud="aws", region="us-east-1")
-pc = Pinecone(api_key="7c19003d-dccb-41d2-97f6-1efc9ebdb877")
+pc = Pinecone(api_key="...")
 # Load OpenAI API key from environment variable
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
